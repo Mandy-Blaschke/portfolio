@@ -3,7 +3,6 @@
 .content {
   @include main-styles.content-view;
   background-image: linear-gradient(main-styles.$cgr5, main-styles.$cgr4);
-  height: fit-content;
 
   .section-heading {
     @include main-styles.section-heading;

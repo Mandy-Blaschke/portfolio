@@ -30,21 +30,38 @@ $cge9: #1c1b08;
 
 @mixin content-view {
   box-sizing: border-box;
-  height: 75vh;
+  height: fit-content;
   margin: 0;
   padding: 10px 25px;
 }
 
 @mixin section-heading {
-  text-align: center;
-  text-shadow: 0 2px 3px $cgr9;
-  color: $cgr1;
-  margin: 45px 0;
+  margin: 100px 350px 75px 350px;
+  position: relative;
+
+  .section-heading-line {
+    height: 6px;
+    background: $cgr1;
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+    right: 0;
+    box-shadow: 0 2px 3px $cgr9;
+    border-radius: 4px;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+    text-shadow: 0 2px 3px $cgr9;
+    color: $cgr1;
+    margin-bottom: 0;
+  }
 }
+
 
 @mixin main-box {
   max-width: 1300px;
-  margin-top: 150px;
+  margin: 150px 0 80px;
   display: flex;
   height: fit-content;
   width: 60%;
@@ -55,7 +72,7 @@ $cge9: #1c1b08;
 }
 
 @mixin card-box {
-  max-width: 1500px;
+  max-width: 1300px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -68,7 +85,7 @@ $cge9: #1c1b08;
 @mixin card {
   position: relative;
   padding: 15px;
-  margin: 25px 15px;
+  margin: 45px;
   border-radius: 8px;
   box-shadow: 0 2px 4px $cge8;
   max-width: 450px;
