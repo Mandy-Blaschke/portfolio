@@ -2,26 +2,18 @@
 
 .content {
   @include main-styles.content-view;
-  background-image: linear-gradient(main-styles.$c7, main-styles.$c6);
+  background-image: linear-gradient(main-styles.$cgr7, main-styles.$cgr6);
   display: flex;
   justify-content: center;
 
   .box {
-    margin-top: 150px;
-    display: flex;
-    align-items: center;
-    height: fit-content;
-    width: 60%;
-    background-color: main-styles.$background;
-    padding: 15px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px main-styles.$c8;
+    @include main-styles.main-box;
 
     .left {
       margin: auto;
       width: 70%;
       justify-self: flex-start;
-      color: main-styles.$c9;
+      color: main-styles.$cgr9;
       text-align: justify;
 
       span {

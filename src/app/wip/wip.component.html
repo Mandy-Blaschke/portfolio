@@ -1,5 +1,30 @@
 <div class="content" id="WIP">
 
-  <h1 class="section-heading">WIP</h1>
+  <h1 class="section-heading">WIP Projekte</h1>
+
+  <div class="card-box">
+
+    <div class="card" *ngFor="let project of service.wipProjects; let i = index"
+         [class.small]="service.sizeByIndex(i + service.randomStartValue) === 'small'"
+         [class.medium]="service.sizeByIndex(i + service.randomStartValue) === 'medium'"
+         [class.large]="service.sizeByIndex(i + service.randomStartValue) === 'large'">
+
+      <div class="pin">
+        <img src="assets/pin.png" alt="pin">
+      </div>
+
+      <div class="card-content">
+
+        <div class="text">
+          <h2>{{project.title}}</h2>
+          <p>{{project.text}}</p>
+        </div>
+
+
+      </div>
+
+    </div>
+
+  </div>
 
 </div>

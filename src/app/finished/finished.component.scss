@@ -2,7 +2,7 @@
 
 .content {
   @include main-styles.content-view;
-  background-image: linear-gradient(main-styles.$c6, main-styles.$c5);
+  background-image: linear-gradient(main-styles.$cgr6, main-styles.$cgr5);
   height: fit-content;
 
   .section-heading {
@@ -12,7 +12,6 @@
 
   .card-box {
     @include main-styles.card-box;
-
 
     .card {
       @include main-styles.card;
@@ -33,29 +32,7 @@
       }
 
       .card-content {
-        display: flex;
-        align-items: flex-start;
-
-        .text {
-          display: flex;
-          flex-direction: column;
-
-          h2 {
-            color: main-styles.$action;
-          }
-
-          p {
-            text-align: justify;
-          }
-        }
-
-        img {
-          align-self: flex-end;
-          width: 120px;
-          margin-left: 15px;
-          border-radius: 8px;
-          box-shadow: 1px 1px 4px #676565;
-        }
+        @include main-styles.card-content;
       }
     }
 
@@ -65,20 +42,20 @@
       .tape-one {
         top: -40px;
         left: 5px;
-        background-color: rgba(main-styles.$c8, 0.3);
+        background-color: rgba(main-styles.$cgr8, 0.3);
         transform: rotate(54deg);
       }
 
       .tape-two {
         bottom: -50px;
         right: 20px;
-        background-color: rgba(main-styles.$c8, 0.3);
+        background-color: rgba(main-styles.$cgr8, 0.3);
         transform: rotate(59deg);
       }
 
       .paperclip {
         top: -36px;
-        right: 0;
+        right: 35px;
       }
     }
 
@@ -89,14 +66,14 @@
       .tape-one {
         top: -62px;
         left: 5px;
-        background-color: rgba(main-styles.$c8, 0.3);
+        background-color: rgba(main-styles.$cgr8, 0.3);
         transform: rotate(69deg);
       }
 
       .tape-two {
         bottom: -50px;
         right: 20px;
-        background-color: rgba(main-styles.$c8, 0.3);
+        background-color: rgba(main-styles.$cgr8, 0.3);
         transform: rotate(59deg);
       }
 
@@ -114,14 +91,14 @@
       .tape-one {
         top: -40px;
         right: 5px;
-        background-color: rgba(main-styles.$c8, 0.3);
+        background-color: rgba(main-styles.$cgr8, 0.3);
         transform: rotate(-46deg);
       }
 
       .tape-two {
         bottom: -45px;
         left: 5px;
-        background-color: rgba(main-styles.$c8, 0.3);
+        background-color: rgba(main-styles.$cgr8, 0.3);
         transform: rotate(120deg);
       }
 

@@ -2,22 +2,65 @@
 
 .content {
   @include main-styles.content-view;
-  background-image: linear-gradient(main-styles.$c3, main-styles.$c2);
+  background-image: linear-gradient(main-styles.$cgr3, main-styles.$cgr2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+
+  .section-heading {
+    @include main-styles.section-heading;
+  }
+
+  .box {
+    @include main-styles.main-box;
+    flex-direction: column;
+    align-items: center;
+    color: main-styles.$cgr8;
+
+    .contact-box {
+      text-align: center;
+
+      .contact-links {
+        margin: 7px;
+
+        img {
+          width: 25px;
+        }
+
+        a {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          text-decoration: none;
+          color: main-styles.$action;
+          font-weight: bolder;
+          font-size: 1.2rem;
+
+          &:hover {
+            cursor: pointer;
+            transform: scale(1.2);
+          }
+        }
+      }
+    }
+  }
 
   .to-top {
-    position: fixed;
+    position: absolute;
     bottom: 0;
     left: 50%;
 
     button {
       color: whitesmoke;
       font-weight: bold;
+      font-size: 1.2rem;
       background-color: main-styles.$action;
       border: none;
       outline: none;
       border-top-right-radius: 8px;
       border-top-left-radius: 8px;
-      box-shadow: 2px 2px 4px main-styles.$c9;
+      box-shadow: 2px 2px 4px main-styles.$cgr9;
 
       &:hover {
         cursor: pointer;

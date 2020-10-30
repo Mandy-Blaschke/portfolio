@@ -1,5 +1,29 @@
 <div class="content" id="Ideen">
 
-  <p>ideas works!</p>
+  <h1 class="section-heading">Projektideen</h1>
+
+  <div class="card-box">
+
+    <div class="note" *ngFor="let project of service.projectIdeas; let i = index">
+
+      <!--
+      <div class="pin">
+        <img src="assets/pin.png" alt="pin">
+      </div>
+      -->
+
+      <div class="card-content">
+
+        <div class="text">
+          <h2>{{project.title}}</h2>
+          <p>{{project.text}}</p>
+        </div>
+
+
+      </div>
+
+    </div>
+
+  </div>
 
 </div>

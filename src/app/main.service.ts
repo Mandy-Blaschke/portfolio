@@ -5,15 +5,18 @@ import {Injectable} from '@angular/core';
 })
 export class MainService {
 
+  constructor() {
+  }
+
   links: string[] = ['Start', 'Fertig', 'WIP', 'Ideen', 'Kontakt'];
 
 
   finishedProjects: Project[] = [
     {
-      title: 'Webseite',
-      text: 'Das ist meine Webseite. Auf dieser finden Sie Informationen zu meiner Person, ' +
+      title: 'Homepage',
+      text: 'Das ist meine Homepage. Auf dieser finden Sie Informationen zu meiner Person, ' +
         'meiner Qualifikation und Antworten auf Fragen, die Sie vielleicht interessieren.',
-      img: 'assets/website.png',
+      img: 'assets/homepage.png',
       url: 'https://mandy-blaschke.de',
       github: 'https://github.com/Mandy-Blaschke/homepage',
       tag: ['html', 'scss', 'javascript', 'typescript', 'angular']
@@ -85,14 +88,15 @@ export class MainService {
   ];
 
   wipProjects: Project[] = [
-    // TODO: Responsive machen und Image ändern
+    // TODO: Hosten
     {
-      title: 'Adressbuch',
-      text: 'Diese App ist ähnlich aufgebaut wie die Kundenverwaltung und diente ' +
-        'ebenso der Übung von Vertiefung.',
-      img: 'assets/kalorientracker.png',
-      url: 'https://mb89-adressbuch.web.app/',
-      github: 'https://github.com/Mandy-Blaschke/adressbuch',
+      title: 'Portfolio',
+      text: 'Hier handel es sich um die Seite, die sie gerade sehen. Da ich ständig neue Projekte erstelle, ' +
+        'mit sich ständig wechselnden Anforderungen und Anwendungsfällen, wird diese Seite den Status "fertig" ' +
+        'wahrscheinlich nie erreichen.',
+      img: '',
+      url: '',
+      github: 'https://github.com/Mandy-Blaschke/portfolio',
       tag: ['html', 'scss', 'javascript', 'typescript', 'angular']
     },
     // TODO: Responsive machen und Image ändern
@@ -101,23 +105,53 @@ export class MainService {
       text: 'Hier finden Sie eine einfache Kundenverwaltung. ' +
         'Diese wurde mir als Aufgabe gestellt und ich habe alle Anforderungen erfüllen können.' +
         'Sie diente, wie andere Projekte auch, der Übung von Vertiefung verschiedener Funktionen.',
-      img: 'assets/kalorientracker.png',
+      img: '',
       url: 'https://mb89-kundenverwaltung.web.app/',
       github: 'https://github.com/Mandy-Blaschke/kundenverwaltung',
       tag: ['html', 'scss', 'javascript', 'typescript', 'angular']
     },
+    // TODO: Responsive machen und Image ändern
     {
-      title: 'Portfolio',
-      text: 'Das ist mein Portfolio.',
+      title: 'Adressbuch',
+      text: 'Diese App ist ähnlich aufgebaut wie die Kundenverwaltung und diente ' +
+        'ebenso der Übung von Vertiefung.',
       img: '',
-      url: 'portfolio.de',
-      github: 'https://github.com/Mandy-Blaschke/portfolio',
+      url: 'https://mb89-adressbuch.web.app/',
+      github: 'https://github.com/Mandy-Blaschke/adressbuch',
       tag: ['html', 'scss', 'javascript', 'typescript', 'angular']
     },
   ];
 
-  constructor() {
-  }
+  projectIdeas: ProjectIdeas[] = [
+    {
+      title: 'Memory-Spiel',
+      text: 'Dieses Projekt soll ein Spiel werden, wie das klassische Memory-Karten-Spiel.',
+    },
+    {
+      title: 'Dame',
+      text: 'Das Brettspiel. Zuerst soll man gegen einen anderen Spieler spielen können. ' +
+        'Später soll dies dann aber um die klassischen Regeln erweitert werden.' +
+        'Vielleicht schaffe ich es auch noch, dass man gegen den Computer spielen kann.'
+    },
+    {
+      title: 'Schach',
+      text: 'Das Brettspiel. Zuerst soll man gegen einen anderen Spieler spielen können. ' +
+        'Später soll dies dann aber um die klassischen Regeln erweitert werden.'
+    },
+    {
+      title: 'Rezeptbuch',
+      text: 'Dies soll ein Kochbuch werden, dass auf lange Sicht von mehreren Nutzern verwendet werden kann. ' +
+        'Die Idee ist, dass man Rezepte mit anderen, z.B. Familienmitgliedern einfach teilen kann.'
+    },
+    {
+      title: 'Pomodoro-Clock',
+      text: 'Das soll eine Pomodoro- oder auch Tomato-Clock - werden. Die Idee entstand dadurch, dass ich selbst ' +
+        'schnell den Überblick verliere, wie lange ich am PC sitze und statt eine fertige zu nehmen, ist ' +
+        'es sinnvoller, die Notwendigkeit mit dem Lernen zu verbinden.'
+    },
+  ];
+
+  randomStartValue = Math.round(Math.random() * 100);
 
   scrollIntoView(id: string): void {
     const view = document.querySelector('#' + id) as HTMLElement;
@@ -128,6 +162,15 @@ export class MainService {
     window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
   }
 
+  sizeByIndex(i: number): string {
+    if (i % 3 === 0) {
+      return 'small';
+    } else if (i % 3 === 1) {
+      return 'medium';
+    } else {
+      return 'large';
+    }
+  }
 
 }
 
@@ -138,4 +181,9 @@ export interface Project {
   github: string;
   img: string;
   tag: string[];
+}
+
+export interface ProjectIdeas {
+  title: string;
+  text: string;
 }

@@ -1,17 +1,30 @@
 
 // colors
 
-$c1: #d8f3dcff;
-$c2: #b7e4c7ff;
-$c3: #95d5b2ff;
-$c4: #74c69dff;
-$c5: #52b788ff;
-$c6: #40916cff;
-$c7: #2d6a4fff;
-$c8: #1b4332ff;
-$c9: #081c15ff;
+$cgr0: #ddf1e2;
+$cgr1: #d8f3dcff;
+$cgr2: #b7e4c7ff;
+$cgr3: #95d5b2ff;
+$cgr4: #74c69dff;
+$cgr5: #52b788ff;
+$cgr6: #40916cff;
+$cgr7: #2d6a4fff;
+$cgr8: #1b4332ff;
+$cgr9: #081c15ff;
+
 $action: #bf7fa9;
 $background: #d9d9d9;
+
+$cge0: #eef1dd;
+$cge1: #f2f3d8;
+$cge2: #e4e3b7;
+$cge3: #d5d495;
+$cge4: #c6c574;
+$cge5: #b7b552;
+$cge6: #918640;
+$cge7: #6a672d;
+$cge8: #433c1b;
+$cge9: #1c1b08;
 
 
 // mixins
@@ -25,15 +38,28 @@ $background: #d9d9d9;
 
 @mixin section-heading {
   text-align: center;
-  text-shadow: 0 1px 4px rgba(black, 0.8);
-  color: $c1;
-  margin: 0 0 55px 0;
+  text-shadow: 0 2px 3px $cgr9;
+  color: $cgr1;
+  margin: 45px 0;
+}
+
+@mixin main-box {
+  margin-top: 150px;
+  display: flex;
+  height: fit-content;
+  width: 60%;
+  background-color: $cgr0;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px $cgr8;
 }
 
 @mixin card-box {
-  max-width: 1200px;
+  max-width: 1500px;
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
   margin-left: auto;
   margin-right: auto;
@@ -43,27 +69,87 @@ $background: #d9d9d9;
   position: relative;
   padding: 15px;
   margin: 25px 15px;
-  background-color: $background;
   border-radius: 8px;
-  box-shadow: 0 2px 4px $c8;
+  box-shadow: 0 2px 4px $cge8;
+  max-width: 450px;
+}
+
+@mixin card-content {
+  display: flex;
+  align-items: flex-start;
+
+  .preview {
+    align-self: flex-end;
+    width: 120px;
+    margin-left: 15px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 4px #676565;
+  }
+
+  .text {
+    display: flex;
+    flex-direction: column;
+
+    .icons {
+      a {
+
+        img {
+          width: 25px;
+          margin: 0 25px;
+          box-shadow: none;
+
+          &:hover {
+            transform: scale(2);
+          }
+        }
+      }
+    }
+
+    h2 {
+      color: $cgr7;
+    }
+
+    p {
+      text-align: justify;
+    }
+  }
 }
 
 @mixin small-card-size {
   align-self: flex-start;
-  max-width: 350px;
-  background-color: $c3;
+  background-color: $cgr0;
   transform: rotate(-10deg);
 }
 
 @mixin medium-card-size {
   align-self: flex-end;
-  max-width: 400px;
-  background-color: $c2;
+  background-color: $cgr1;
   transform: rotate(5deg);
 }
 
 @mixin large-card-size {
   align-self: center;
-  max-width: 450px;
-  background-color: $c1;
+  background-color: $cgr1;
+  transform: rotate(-5deg);
+}
+
+@mixin note {
+  position: relative;
+  padding: 15px;
+  margin: 25px;
+  box-shadow: 0 2px 4px $cge8;
+  max-width: 350px;
+
+
+  &:nth-child(even){
+    transform: rotate(5deg);
+    background-color: $cge0;
+  }
+
+  &:nth-child(odd){
+    transform: rotate(-3deg);
+    background-color: $cge1;
+  }
+
+
 }

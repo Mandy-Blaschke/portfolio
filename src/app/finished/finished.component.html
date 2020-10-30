@@ -5,9 +5,9 @@
   <div class="card-box">
 
     <div class="card" *ngFor="let project of service.finishedProjects; let i = index"
-         [class.small]="sizeByIndex(i + randomStartValue) === 'small'"
-         [class.medium]="sizeByIndex(i + randomStartValue) === 'medium'"
-         [class.large]="sizeByIndex(i + randomStartValue) === 'large'">
+         [class.small]="service.sizeByIndex(i + service.randomStartValue) === 'small'"
+         [class.medium]="service.sizeByIndex(i + service.randomStartValue) === 'medium'"
+         [class.large]="service.sizeByIndex(i + service.randomStartValue) === 'large'">
 
       <div class="paperclip">
         <img src="assets/paperclip.png" alt="paperclip">
@@ -20,10 +20,21 @@
 
         <div class="text">
           <h2>{{project.title}}</h2>
+
+         <div class="icons">
+           <a href="{{project.url}}" target="_blank" class="icon">
+             <img  class="icon" src="assets/website-icon.png" alt="website-icon">
+           </a>
+
+           <a href="{{project.github}}" target="_blank" class="icon">
+             <img  class="icon" src="assets/github-icon.png" alt="github-icon">
+           </a>
+         </div>
+
           <p>{{project.text}}</p>
         </div>
 
-        <img src="{{project.img}}" alt="preview">
+        <img class="preview" src="{{project.img}}" alt="preview">
 
       </div>
 
