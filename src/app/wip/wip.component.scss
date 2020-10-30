@@ -3,6 +3,7 @@
 .content {
   @include main-styles.content-view;
   background-image: linear-gradient(main-styles.$cgr5, main-styles.$cgr4);
+  height: fit-content;
 
   .section-heading {
     @include main-styles.section-heading;
@@ -26,7 +27,7 @@
       }
 
       img {
-        height: 120px;
+        height: 25px;
         width: auto;
       }
     }
@@ -43,11 +44,6 @@
       top: 20px;
       right: 60px;
     }
-
-    .paperclip {
-      top: -36px;
-      right: 10px;
-    }
   }
 
   .medium {
@@ -56,12 +52,6 @@
     .pin {
       top: 6px;
       right: 20px;
-    }
-
-    .paperclip {
-      top: -45px;
-      right: -4px;
-      transform: rotate(45deg);
     }
   }
 
@@ -72,12 +62,6 @@
     .pin {
       top: 0;
       right: 140px;
-    }
-
-    .paperclip {
-      transform: rotate(90deg);
-      top: 30px;
-      right: -3px;
     }
   }
 }
