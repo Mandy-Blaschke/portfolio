@@ -1,0 +1,27 @@
+@use 'src/main-styles';
+
+.content {
+  @include main-styles.content-view;
+  background-image: linear-gradient(main-styles.$c3, main-styles.$c2);
+
+  .to-top {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+
+    button {
+      color: whitesmoke;
+      font-weight: bold;
+      background-color: main-styles.$action;
+      border: none;
+      outline: none;
+      border-top-right-radius: 8px;
+      border-top-left-radius: 8px;
+      box-shadow: 2px 2px 4px main-styles.$c9;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}

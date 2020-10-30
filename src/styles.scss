@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+
+@use 'main-styles';
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+
+html, body {
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+}
+
+h1, h2, h3, h4, button {
+  font-family: 'Indie Flower', cursive;
+}

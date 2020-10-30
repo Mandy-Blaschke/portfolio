@@ -1,0 +1,46 @@
+@use 'src/main-styles';
+
+.content {
+  @include main-styles.content-view;
+  background-image: linear-gradient(main-styles.$c7, main-styles.$c6);
+  display: flex;
+  justify-content: center;
+
+  .box {
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    height: fit-content;
+    width: 60%;
+    background-color: main-styles.$background;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px main-styles.$c8;
+
+    .left {
+      margin: auto;
+      width: 70%;
+      justify-self: flex-start;
+      color: main-styles.$c9;
+      text-align: justify;
+
+      span {
+        color: main-styles.$action;
+        font-weight: bolder;
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+
+    .right {
+      margin: auto;
+
+      img {
+        width: 120px;
+        border-radius: 8px;
+      }
+    }
+  }
+}

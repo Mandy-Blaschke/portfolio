@@ -1,0 +1,6 @@
+@use 'src/main-styles';
+
+.content {
+  @include main-styles.content-view;
+  background-image: linear-gradient(main-styles.$c4, main-styles.$c3);
+}

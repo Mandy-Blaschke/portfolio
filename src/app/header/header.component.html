@@ -1,0 +1,13 @@
+<div class="content" id="navbar">
+
+  <h1>Mandy's Portfolio</h1>
+
+  <div class="link-box">
+
+    <div *ngFor="let link of service.links" (click)="service.scrollIntoView(link)" class="link">
+      <h2>{{link}}</h2>
+    </div>
+
+  </div>
+
+</div>

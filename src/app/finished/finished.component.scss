@@ -1,0 +1,155 @@
+@use 'src/main-styles';
+
+.content {
+  @include main-styles.content-view;
+  background-image: linear-gradient(main-styles.$c6, main-styles.$c5);
+  height: fit-content;
+
+
+  .card-box {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+
+
+    .card {
+      position: relative;
+      padding: 15px;
+      margin: 25px 15px;
+      background-color: main-styles.$background;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px main-styles.$c8;
+
+      .tape-one, .tape-two {
+        position: absolute;
+        height: 120px;
+        width: 30px;
+      }
+
+      .paperclip {
+        position: absolute;
+
+        img {
+          height: 120px;
+          width: auto;
+        }
+      }
+
+      .card-content {
+        display: flex;
+        align-items: flex-start;
+
+        .text {
+          display: flex;
+          flex-direction: column;
+
+          h2 {
+            color: main-styles.$action;
+          }
+
+          p {
+            text-align: justify;
+          }
+        }
+
+        img {
+          align-self: flex-end;
+          width: 120px;
+          margin-left: 15px;
+          border-radius: 8px;
+          box-shadow: 1px 1px 4px #676565;
+        }
+      }
+    }
+
+    .small {
+      align-self: flex-start;
+      //min-width: 250px;
+      max-width: 350px;
+      background-color: main-styles.$c3;
+      transform: rotate(-10deg);
+
+      .tape-one {
+        top: -40px;
+        left: 5px;
+        background-color: rgba(main-styles.$c8, 0.3);
+        transform: rotate(54deg);
+      }
+
+      .tape-two {
+        bottom: -50px;
+        right: 20px;
+        background-color: rgba(main-styles.$c8, 0.3);
+        transform: rotate(59deg);
+      }
+
+      .paperclip {
+        top: -36px;
+        right: 0;
+      }
+    }
+
+
+    .medium {
+      align-self: flex-end;
+      //min-width: 350px;
+      max-width: 400px;
+      background-color: main-styles.$c2;
+      transform: rotate(5deg);
+
+      .tape-one {
+        top: -62px;
+        left: 5px;
+        background-color: rgba(main-styles.$c8, 0.3);
+        transform: rotate(69deg);
+      }
+
+      .tape-two {
+        bottom: -50px;
+        right: 20px;
+        background-color: rgba(main-styles.$c8, 0.3);
+        transform: rotate(59deg);
+      }
+
+      .paperclip {
+        top: -45px;
+        right: -4px;
+        transform: rotate(45deg);
+      }
+    }
+
+
+    .large {
+      align-self: center;
+      //min-width: 450px;
+      max-width: 450px;
+      background-color: main-styles.$c1;
+
+      .tape-one {
+        top: -40px;
+        right: 5px;
+        background-color: rgba(main-styles.$c8, 0.3);
+        transform: rotate(-46deg);
+      }
+
+      .tape-two {
+        bottom: -45px;
+        left: 5px;
+        background-color: rgba(main-styles.$c8, 0.3);
+        transform: rotate(120deg);
+      }
+
+      .paperclip {
+        transform: rotate(90deg);
+        top: 30px;
+        right: -3px;
+      }
+    }
+  }
+}
+
+
+

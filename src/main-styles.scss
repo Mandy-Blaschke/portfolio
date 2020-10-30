@@ -1,0 +1,25 @@
+
+// colors
+
+$c1: #d8f3dcff;
+$c2: #b7e4c7ff;
+$c3: #95d5b2ff;
+$c4: #74c69dff;
+$c5: #52b788ff;
+$c6: #40916cff;
+$c7: #2d6a4fff;
+$c8: #1b4332ff;
+$c9: #081c15ff;
+$action: #bf7fa9;
+$background: #d9d9d9;
+
+//_________________________________________
+
+// mixins
+
+@mixin content-view {
+  box-sizing: border-box;
+  height: 100vh;
+  margin: 0;
+  padding: 10px 25px;
+}
