@@ -30,7 +30,7 @@ $cge9: #1c1b08;
 
 @mixin content-view {
   box-sizing: border-box;
-  height: 100vh;
+  height: 75vh;
   margin: 0;
   padding: 10px 25px;
 }
@@ -43,6 +43,7 @@ $cge9: #1c1b08;
 }
 
 @mixin main-box {
+  max-width: 1300px;
   margin-top: 150px;
   display: flex;
   height: fit-content;
@@ -138,16 +139,48 @@ $cge9: #1c1b08;
   box-shadow: 0 2px 4px $cge8;
   max-width: 350px;
 
+  img {
+    height: 120px;
+    width: auto;
+  }
+
+  .magnet, .magnet2 {
+    position: absolute;
+
+    img {
+      width: 50px;
+      height: 50px;
+      filter: hue-rotate(300deg);
+    }
+  }
 
   &:nth-child(even) {
     transform: rotate(5deg);
     background-color: $cge0;
+
+    .magnet {
+      top: -12px;
+      left: -12px;
+    }
+
+    .magnet2 {
+      bottom: -20px;
+      right: 5px;
+    }
   }
 
   &:nth-child(odd) {
     transform: rotate(-3deg);
     background-color: $cge1;
+
+    .magnet {
+      top: 15px;
+      right: 40px;
+    }
+
+    .magnet2 {
+      bottom: -30px;
+      left: -20px;
+    }
   }
-
-
 }

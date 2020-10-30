@@ -16,66 +16,9 @@
     .note {
       @include main-styles.note;
 
-      .pin {
-        position: absolute;
-
-        img {
-          width: 50px;
-          height: 50px;
-          filter: hue-rotate(300deg);
-        }
+      .card-content {
+        @include main-styles.card-content;
       }
-
-      img {
-        height: 120px;
-        width: auto;
-      }
-    }
-
-    .card-content {
-      @include main-styles.card-content;
-    }
-  }
-
-  .small {
-
-    .pin {
-      top: 20px;
-      right: 60px;
-    }
-
-    .paperclip {
-      top: -36px;
-      right: 10px;
-    }
-  }
-
-  .medium {
-
-    .pin {
-      top: 6px;
-      right: 20px;
-    }
-
-    .paperclip {
-      top: -45px;
-      right: -4px;
-      transform: rotate(45deg);
-    }
-  }
-
-
-  .large {
-
-    .pin {
-      top: 0;
-      right: 140px;
-    }
-
-    .paperclip {
-      transform: rotate(90deg);
-      top: 30px;
-      right: -3px;
     }
   }
 }

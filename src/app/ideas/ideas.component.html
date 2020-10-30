@@ -4,13 +4,12 @@
 
   <div class="card-box">
 
-    <div class="note" *ngFor="let project of service.projectIdeas; let i = index">
+    <div class="note" *ngFor="let project of service.projectIdeas">
 
-      <!--
-      <div class="pin">
-        <img src="assets/pin.png" alt="pin">
+
+      <div class="magnet">
+        <img src="assets/magnet.png" alt="magnet">
       </div>
-      -->
 
       <div class="card-content">
 
@@ -19,6 +18,9 @@
           <p>{{project.text}}</p>
         </div>
 
+        <div class="magnet2">
+          <img src="assets/magnet.png" alt="magnet">
+        </div>
 
       </div>
 
