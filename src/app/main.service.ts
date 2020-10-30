@@ -8,7 +8,7 @@ export class MainService {
   constructor() {
   }
 
-  links: string[] = ['Start', 'Fertig', 'WIP', 'Ideen', 'Kontakt'];
+  links: string[] = ['Fertig', 'WIP', 'Ideen', 'Kontakt'];
 
 
   finishedProjects: Project[] = [
