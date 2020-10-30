@@ -33,10 +33,10 @@ $cge9: #1c1b08;
   height: fit-content;
   margin: 0;
   padding: 10px 25px;
-  overflow-y: hidden;
 }
 
 @mixin section-heading {
+  width: 100%;
   position: relative;
   margin: 0 auto;
   max-width: 1300px;
@@ -45,9 +45,9 @@ $cge9: #1c1b08;
     height: 6px;
     background: $cgr1;
     position: absolute;
-    bottom: 7px;
     left: 0;
     right: 0;
+    bottom: 7px;
     box-shadow: 0 2px 3px $cgr9;
     border-radius: 4px;
   }
@@ -57,6 +57,7 @@ $cge9: #1c1b08;
     text-shadow: 0 2px 3px $cgr9;
     color: $cgr1;
     margin-bottom: 0;
+
   }
 
   @media (max-width: 750px) {
@@ -186,7 +187,7 @@ $cge9: #1c1b08;
 @mixin note {
   position: relative;
   padding: 15px;
-  margin: 25px;
+  margin: 45px;
   box-shadow: 0 2px 4px $cge8;
   max-width: 350px;
 

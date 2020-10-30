@@ -11,7 +11,7 @@
 
   h1 {
     font-size: 3.5rem;
-    margin: 5px 15px;
+    margin: 55px;
     color: whitesmoke;
     text-shadow: 0 2px 3px main-styles.$cgr9;
   }
@@ -25,6 +25,7 @@
 
   .link-box {
     width: 100%;
+    max-width: 1300px;
     display: flex;
     justify-content: space-around;
 
