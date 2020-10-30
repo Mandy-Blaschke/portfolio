@@ -36,14 +36,15 @@ $cge9: #1c1b08;
 }
 
 @mixin section-heading {
-  margin: 100px 350px 75px 350px;
   position: relative;
+  margin: 0 auto;
+  max-width: 1300px;
 
   .section-heading-line {
     height: 6px;
     background: $cgr1;
     position: absolute;
-    bottom: 15px;
+    bottom: 7px;
     left: 0;
     right: 0;
     box-shadow: 0 2px 3px $cgr9;
@@ -56,6 +57,18 @@ $cge9: #1c1b08;
     color: $cgr1;
     margin-bottom: 0;
   }
+
+  @media (max-width: 750px) {
+
+    .section-heading-line {
+      height: 3px;
+    }
+
+    h1 {
+      font-size: 2rem;
+    }
+
+  }
 }
 
 
@@ -64,12 +77,17 @@ $cge9: #1c1b08;
   margin: 150px 0 80px;
   display: flex;
   height: fit-content;
-  width: 60%;
   background-color: $cgr0;
   padding: 15px;
   border-radius: 8px;
   box-shadow: 0 2px 4px $cgr8;
+
+
+  @media (max-width: 445px) {
+    margin: 80px 0 80px;
+  }
 }
+
 
 @mixin card-box {
   max-width: 1300px;
@@ -89,18 +107,38 @@ $cge9: #1c1b08;
   border-radius: 8px;
   box-shadow: 0 2px 4px $cge8;
   max-width: 450px;
+
+  @media (max-width: 415px){
+    margin: 60px 10px;
+  }
 }
 
 @mixin card-content {
   display: flex;
   align-items: flex-start;
 
+  @media (max-width: 470px) {
+    //flex-direction: column-reverse;
+  }
+
   .preview {
-    align-self: flex-end;
+    align-self: flex-start;
     width: 120px;
     margin-left: 15px;
     border-radius: 8px;
     box-shadow: 1px 1px 4px #676565;
+
+    @media (max-width: 470px) {
+      width: 90px;
+    }
+
+    @media (max-width: 407px) {
+      align-self: flex-end;
+    }
+
+    @media (max-width: 407px) {
+      align-self: flex-end;
+    }
   }
 
   .text {
@@ -168,6 +206,11 @@ $cge9: #1c1b08;
       width: 50px;
       height: 50px;
       filter: hue-rotate(300deg);
+
+      @media (max-width: 750px){
+        width: 35px;
+        height: 35px;
+      }
     }
   }
 
@@ -201,3 +244,4 @@ $cge9: #1c1b08;
     }
   }
 }
+
