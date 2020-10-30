@@ -13,7 +13,6 @@ $c9: #081c15ff;
 $action: #bf7fa9;
 $background: #d9d9d9;
 
-//_________________________________________
 
 // mixins
 
@@ -22,4 +21,49 @@ $background: #d9d9d9;
   height: 100vh;
   margin: 0;
   padding: 10px 25px;
+}
+
+@mixin section-heading {
+  text-align: center;
+  text-shadow: 0 1px 4px rgba(black, 0.8);
+  color: $c1;
+  margin: 0 0 55px 0;
+}
+
+@mixin card-box {
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@mixin card {
+  position: relative;
+  padding: 15px;
+  margin: 25px 15px;
+  background-color: $background;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px $c8;
+}
+
+@mixin small-card-size {
+  align-self: flex-start;
+  max-width: 350px;
+  background-color: $c3;
+  transform: rotate(-10deg);
+}
+
+@mixin medium-card-size {
+  align-self: flex-end;
+  max-width: 400px;
+  background-color: $c2;
+  transform: rotate(5deg);
+}
+
+@mixin large-card-size {
+  align-self: center;
+  max-width: 450px;
+  background-color: $c1;
 }

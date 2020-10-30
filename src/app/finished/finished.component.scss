@@ -5,23 +5,17 @@
   background-image: linear-gradient(main-styles.$c6, main-styles.$c5);
   height: fit-content;
 
+  .section-heading {
+    @include main-styles.section-heading;
+  }
+
 
   .card-box {
-    max-width: 1200px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
+    @include main-styles.card-box;
 
 
     .card {
-      position: relative;
-      padding: 15px;
-      margin: 25px 15px;
-      background-color: main-styles.$background;
-      border-radius: 8px;
-      box-shadow: 0 2px 4px main-styles.$c8;
+      @include main-styles.card;
 
       .tape-one, .tape-two {
         position: absolute;
@@ -66,11 +60,7 @@
     }
 
     .small {
-      align-self: flex-start;
-      //min-width: 250px;
-      max-width: 350px;
-      background-color: main-styles.$c3;
-      transform: rotate(-10deg);
+      @include main-styles.small-card-size;
 
       .tape-one {
         top: -40px;
@@ -94,11 +84,7 @@
 
 
     .medium {
-      align-self: flex-end;
-      //min-width: 350px;
-      max-width: 400px;
-      background-color: main-styles.$c2;
-      transform: rotate(5deg);
+      @include main-styles.medium-card-size;
 
       .tape-one {
         top: -62px;
@@ -123,10 +109,7 @@
 
 
     .large {
-      align-self: center;
-      //min-width: 450px;
-      max-width: 450px;
-      background-color: main-styles.$c1;
+      @include main-styles.large-card-size;
 
       .tape-one {
         top: -40px;

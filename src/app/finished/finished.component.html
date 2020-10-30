@@ -1,8 +1,10 @@
 <div class="content" id="Fertig">
 
+  <h1 class="section-heading">Fertige Projekte</h1>
+
   <div class="card-box">
 
-    <div class="card" *ngFor="let project of service.projects; let i = index"
+    <div class="card" *ngFor="let project of service.finishedProjects; let i = index"
          [class.small]="sizeByIndex(i + randomStartValue) === 'small'"
          [class.medium]="sizeByIndex(i + randomStartValue) === 'medium'"
          [class.large]="sizeByIndex(i + randomStartValue) === 'large'">

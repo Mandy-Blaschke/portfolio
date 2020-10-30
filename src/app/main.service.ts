@@ -8,7 +8,7 @@ export class MainService {
   links: string[] = ['Start', 'Fertig', 'WIP', 'Ideen', 'Kontakt'];
 
 
-  projects: Project[] = [
+  finishedProjects: Project[] = [
     {
       title: 'Webseite',
       text: 'Das ist meine Webseite. Auf dieser finden Sie Informationen zu meiner Person, ' +
@@ -35,15 +35,6 @@ export class MainService {
       url: 'https://mb-hangman.web.app/',
       github: 'https://github.com/Mandy-Blaschke/hangman-game',
       tag: ['html', 'javascript', 'css']
-    },
-    {
-      title: 'Portfolio',
-      text: 'Das ist mein Portfolio.',
-      img: '',
-      url: 'portfolio.de',
-// TODO: Gitrepo anlegen
-      github: '',
-      tag: ['html', 'scss', 'javascript', 'typescript', 'angular']
     },
     {
       title: 'Rechne Mal!',
@@ -73,7 +64,38 @@ export class MainService {
       github: 'https://github.com/Mandy-Blaschke/energiebedarf',
       tag: ['html', 'scss', 'javascript', 'typescript', 'angular']
     },
-// TODO: Responsive machen und Image ändern
+    {
+      title: 'Zahlen Raten',
+      text: 'Das ist eine der ersten Anwendungen, die ich fertig gestellt habe. Als ich diese geschrieben habe, ' +
+        'habe ich gerade angefangen JavaScript zu lernen.',
+      img: 'assets/zahlen.png',
+      url: 'https://mb-zahlen-raten.web.app/',
+      github: 'https://github.com/Mandy-Blaschke/zahlen-raten-spiel',
+      tag: ['html', 'css', 'javascript']
+    },
+    {
+      title: 'TicTacToe',
+      text: 'Das ist ein Drei-Gewinnt-Spiel, bei dem zwei Leute gegeneinander antreten ' +
+        'können, wobei die Münze entscheidet, wer beginnt.',
+      img: 'assets/tictactoe.png',
+      url: 'https://mb-tictactoe.web.app/',
+      github: 'https://github.com/Mandy-Blaschke/tic-tac-toe-game',
+      tag: ['html', 'css', 'javascript']
+    },
+  ];
+
+  wipProjects: Project[] = [
+    // TODO: Responsive machen und Image ändern
+    {
+      title: 'Adressbuch',
+      text: 'Diese App ist ähnlich aufgebaut wie die Kundenverwaltung und diente ' +
+        'ebenso der Übung von Vertiefung.',
+      img: 'assets/kalorientracker.png',
+      url: 'https://mb89-adressbuch.web.app/',
+      github: 'https://github.com/Mandy-Blaschke/adressbuch',
+      tag: ['html', 'scss', 'javascript', 'typescript', 'angular']
+    },
+    // TODO: Responsive machen und Image ändern
     {
       title: 'Kundenverwaltung',
       text: 'Hier finden Sie eine einfache Kundenverwaltung. ' +
@@ -85,32 +107,12 @@ export class MainService {
       tag: ['html', 'scss', 'javascript', 'typescript', 'angular']
     },
     {
-      title: 'Zahlen Raten',
-      text: 'Das ist eine der ersten Anwendungen, die ich fertig gestellt habe. Als ich diese geschrieben habe, ' +
-        'habe ich gerade angefangen JavaScript zu lernen.',
-      img: 'assets/zahlen.png',
-      url: 'https://mb-zahlen-raten.web.app/',
-      github: 'https://github.com/Mandy-Blaschke/zahlen-raten-spiel',
-      tag: ['html', 'css', 'javascript']
-    },
-// TODO: Responsive machen und Image ändern
-    {
-      title: 'Adressbuch',
-      text: 'Diese App ist ähnlich aufgebaut wie die Kundenverwaltung und diente ' +
-        'ebenso der Übung von Vertiefung.',
-      img: 'assets/kalorientracker.png',
-      url: 'https://mb89-adressbuch.web.app/',
-      github: 'https://github.com/Mandy-Blaschke/adressbuch',
+      title: 'Portfolio',
+      text: 'Das ist mein Portfolio.',
+      img: '',
+      url: 'portfolio.de',
+      github: 'https://github.com/Mandy-Blaschke/portfolio',
       tag: ['html', 'scss', 'javascript', 'typescript', 'angular']
-    },
-    {
-      title: 'TicTacToe',
-      text: 'Das ist ein Drei-Gewinnt-Spiel, bei dem zwei Leute gegeneinander antreten ' +
-        'können, wobei die Münze entscheidet, wer beginnt.',
-      img: 'assets/tictactoe.png',
-      url: 'https://mb-tictactoe.web.app/',
-      github: 'https://github.com/Mandy-Blaschke/tic-tac-toe-game',
-      tag: ['html', 'css', 'javascript']
     },
   ];
 

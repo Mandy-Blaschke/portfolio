@@ -3,4 +3,8 @@
 .content {
   @include main-styles.content-view;
   background-image: linear-gradient(main-styles.$c5, main-styles.$c4);
+
+  .section-heading {
+    @include main-styles.section-heading;
+  }
 }
