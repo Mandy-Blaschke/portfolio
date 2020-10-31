@@ -76,7 +76,7 @@ $cge9: #1c1b08;
 
 @mixin main-box {
   max-width: 800px;
-  margin: 150px 0 80px;
+  margin: 150px 0 80px 0;
   display: flex;
   height: fit-content;
   background-color: $cgr0;
