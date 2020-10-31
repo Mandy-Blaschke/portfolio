@@ -66,6 +66,15 @@
         background-color: main-styles.$cgr0;
         box-shadow: 0 2px 4px #433c1b;
 
+        span {
+          color: main-styles.$action;
+          font-weight: bolder;
+
+          &:hover {
+            cursor: pointer;
+          }
+        }
+
         @media (max-width: 900px) {
           max-width: 350px;
         }
