@@ -44,7 +44,7 @@ export class MainService {
       text: 'Diese Anwendung habe ich an einem Wochenende für meine Nichte ' +
         'geschrieben, die in der Schule ' +
         'die Malfolgen musste, aber lieber mit ihrem Handy gespielt hat. ' +
-        'Durch diese konnte sie beides kombinieren.',
+        'Hiermit konnte sie beides kombinieren.',
       img: 'assets/rechnemal.png',
       url: 'https://mb89-rechne-mal.web.app/',
       github: 'https://github.com/Mandy-Blaschke/malfolgen',
@@ -52,7 +52,8 @@ export class MainService {
     },
     {
       title: 'Schere-Stein-Papier',
-      text: 'Das klassische Schere-Stein-Papier-Spiel, bei dem man gegen den Zufall antritt.',
+      text: 'Das klassische Schere-Stein-Papier-Spiel, bei dem man gegen den Zufall antritt. ' +
+        'Das war eine der ersten Anwendungen mit JavaScript.',
       img: 'assets/schere.png',
       url: 'https://mb-schere-stein-papier.web.app/',
       github: 'https://github.com/Mandy-Blaschke/scissors-stone-paper-game',
@@ -70,7 +71,8 @@ export class MainService {
     {
       title: 'Zahlen Raten',
       text: 'Das ist eine der ersten Anwendungen, die ich fertig gestellt habe. Als ich diese geschrieben habe, ' +
-        'habe ich gerade angefangen JavaScript zu lernen.',
+        'habe ich gerade angefangen JavaScript zu lernen. ' +
+        'Ziel ist es eine Zufallszahl zu erraten.',
       img: 'assets/zahlen.png',
       url: 'https://mb-zahlen-raten.web.app/',
       github: 'https://github.com/Mandy-Blaschke/zahlen-raten-spiel',
@@ -92,7 +94,7 @@ export class MainService {
     {
       title: 'Portfolio',
       text: 'Hier handel es sich um die Seite, die sie gerade sehen. Da ich ständig neue Projekte erstelle, ' +
-        'mit sich ständig wechselnden Anforderungen und Anwendungsfällen, wird diese Seite den Status "fertig" ' +
+        'mit wechselnden Anforderungen und Anwendungsfällen, wird diese Seite den Status "fertig" ' +
         'wahrscheinlich nie erreichen.',
       img: '',
       url: '',
@@ -135,8 +137,7 @@ export class MainService {
     },
     {
       title: 'Schach',
-      text: 'Das Brettspiel. Zuerst soll man gegen einen anderen Spieler spielen können. ' +
-        'Später soll dies dann aber um die klassischen Regeln erweitert werden.'
+      text: 'Wie bei dem geplanten Dame-Spiel soll man auch hier gegeneinander spielen können.'
     },
     {
       title: 'Rezeptbuch',
