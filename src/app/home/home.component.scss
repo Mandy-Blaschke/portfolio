@@ -59,7 +59,8 @@
         position: relative;
         padding: 25px;
         border-radius: 8px;
-        background-color: antiquewhite;
+        background-color: main-styles.$cgr0;
+        box-shadow: 0 2px 4px #433c1b;
 
         @media (max-width: 900px) {
           max-width: 350px;
@@ -77,6 +78,7 @@
 
         .text {
           text-align: justify;
+          color: main-styles.$cgr8;
         }
       }
     }
