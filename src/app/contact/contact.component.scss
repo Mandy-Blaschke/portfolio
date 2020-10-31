@@ -7,6 +7,7 @@
   flex-direction: column;
   align-items: center;
   position: relative;
+  padding-bottom: 25px;
 
   .section-heading {
     @include main-styles.section-heading;
@@ -56,25 +57,6 @@
       }
     }
   }
-
-  .to-top {
-    position: absolute;
-    bottom: 0;
-
-    button {
-      color: whitesmoke;
-      font-weight: bold;
-      font-size: 1.2rem;
-      background-color: main-styles.$action;
-      border: none;
-      outline: none;
-      border-top-right-radius: 8px;
-      border-top-left-radius: 8px;
-      box-shadow: 2px 2px 4px main-styles.$cgr9;
-
-      &:hover {
-        cursor: pointer;
-      }
-    }
-  }
 }
+
+

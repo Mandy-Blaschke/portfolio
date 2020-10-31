@@ -1,4 +1,28 @@
+@use "src/main-styles";
+
 .main-content {
   min-width: 360px;
   overflow-x: hidden;
+}
+
+.to-top {
+  background-color: main-styles.$cgr2;
+  display: flex;
+  justify-content: center;
+
+  button {
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 1.2rem;
+    background-color: main-styles.$action;
+    border: none;
+    outline: none;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    box-shadow: 2px 2px 4px main-styles.$cgr9;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
 }
