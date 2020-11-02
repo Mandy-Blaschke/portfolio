@@ -87,10 +87,29 @@ export class MainService {
       github: 'https://github.com/Mandy-Blaschke/tic-tac-toe-game',
       tag: ['html', 'css', 'javascript']
     },
+    {
+      title: 'Kundenverwaltung',
+      text: 'Hier finden Sie eine einfache Kundenverwaltung. ' +
+        'Diese wurde mir als Aufgabe gestellt und ich habe alle Anforderungen erfüllen können.' +
+        'Sie diente, wie andere Projekte auch, der Übung von Vertiefung verschiedener Funktionen. ' +
+        'Achtung: Dieses Projekt ist nicht responsive.',
+      img: '',
+      url: 'https://mb89-kundenverwaltung.web.app/',
+      github: 'https://github.com/Mandy-Blaschke/kundenverwaltung',
+      tag: ['html', 'scss', 'javascript', 'typescript', 'angular']
+    },
+    {
+      title: 'Adressbuch',
+      text: 'Diese App ist ähnlich aufgebaut wie die Kundenverwaltung und diente ' +
+        'ebenso der Übung von Vertiefung. Achtung: Dieses Projekt ist nicht responsive.',
+      img: '',
+      url: 'https://mb89-adressbuch.web.app/',
+      github: 'https://github.com/Mandy-Blaschke/adressbuch',
+      tag: ['html', 'scss', 'javascript', 'typescript', 'angular']
+    },
   ];
 
   wipProjects: Project[] = [
-    // TODO: Hosten
     {
       title: 'Portfolio',
       text: 'Hier handel es sich um die Seite, die sie gerade sehen. Da ich ständig neue Projekte erstelle, ' +
@@ -101,34 +120,18 @@ export class MainService {
       github: 'https://github.com/Mandy-Blaschke/portfolio',
       tag: ['html', 'scss', 'javascript', 'typescript', 'angular']
     },
-    // TODO: Responsive machen und Image ändern
     {
-      title: 'Kundenverwaltung',
-      text: 'Hier finden Sie eine einfache Kundenverwaltung. ' +
-        'Diese wurde mir als Aufgabe gestellt und ich habe alle Anforderungen erfüllen können.' +
-        'Sie diente, wie andere Projekte auch, der Übung von Vertiefung verschiedener Funktionen.',
+      title: 'Memory',
+      text: 'Hier arbeite ich aktuell an dem klassischen Memory Spiel, bei dem das Ziel darin besteht, alle Kartenpaare zu finden.' +
+        'Es soll alleine, zu zweit, sowie gegen den Computer spielbar werden.',
       img: '',
-      url: 'https://mb89-kundenverwaltung.web.app/',
-      github: 'https://github.com/Mandy-Blaschke/kundenverwaltung',
-      tag: ['html', 'scss', 'javascript', 'typescript', 'angular']
-    },
-    // TODO: Responsive machen und Image ändern
-    {
-      title: 'Adressbuch',
-      text: 'Diese App ist ähnlich aufgebaut wie die Kundenverwaltung und diente ' +
-        'ebenso der Übung von Vertiefung.',
-      img: '',
-      url: 'https://mb89-adressbuch.web.app/',
-      github: 'https://github.com/Mandy-Blaschke/adressbuch',
+      url: '',
+      github: 'https://github.com/Mandy-Blaschke/memory-game',
       tag: ['html', 'scss', 'javascript', 'typescript', 'angular']
     },
   ];
 
   projectIdeas: ProjectIdeas[] = [
-    {
-      title: 'Memory-Spiel',
-      text: 'Dieses Projekt soll ein Spiel werden, wie das klassische Memory-Karten-Spiel.',
-    },
     {
       title: 'Dame',
       text: 'Das Brettspiel. Zuerst soll man gegen einen anderen Spieler spielen können. ' +
