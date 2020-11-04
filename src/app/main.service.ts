@@ -88,6 +88,15 @@ export class MainService {
       tag: ['html', 'css', 'javascript']
     },
     {
+      title: 'Memory',
+      text: 'Das klassische Memory Spiel, bei dem das Ziel darin besteht, alle Kartenpaare zu finden.' +
+        ' Es ist alleine, zu zweit, sowie gegen den Computer spielbar. Der Computer hat aktuell drei Schwierigkeitsstufen.',
+      img: 'assets/memory.png',
+      url: 'https://mb89-memory.web.app/',
+      github: 'https://github.com/Mandy-Blaschke/memory-game',
+      tag: ['html', 'scss', 'javascript', 'typescript', 'angular']
+    },
+    {
       title: 'Kundenverwaltung',
       text: 'Hier finden Sie eine einfache Kundenverwaltung. ' +
         'Diese wurde mir als Aufgabe gestellt und ich habe alle Anforderungen erfüllen können.' +
@@ -118,16 +127,6 @@ export class MainService {
       img: '',
       url: '',
       github: 'https://github.com/Mandy-Blaschke/portfolio',
-      tag: ['html', 'scss', 'javascript', 'typescript', 'angular']
-    },
-    {
-      title: 'Memory',
-      text: 'Hier arbeite ich aktuell an dem klassischen Memory Spiel, bei dem das Ziel darin besteht, alle Kartenpaare zu finden.' +
-        'Es ist alleine, zu zweit, sowie gegen den Computer spielbar. Der Computer hat aktuell drei Schwierigkeitsstufen, ' +
-        'die allerdings noch abgepasst werden müssen.',
-      img: 'assets/memory.png',
-      url: 'https://mb89-memory.web.app/',
-      github: 'https://github.com/Mandy-Blaschke/memory-game',
       tag: ['html', 'scss', 'javascript', 'typescript', 'angular']
     },
   ];
