@@ -123,9 +123,10 @@ export class MainService {
     {
       title: 'Memory',
       text: 'Hier arbeite ich aktuell an dem klassischen Memory Spiel, bei dem das Ziel darin besteht, alle Kartenpaare zu finden.' +
-        'Es soll alleine, zu zweit, sowie gegen den Computer spielbar werden.',
-      img: '',
-      url: '',
+        'Es ist alleine, zu zweit, sowie gegen den Computer spielbar. Der Computer hat aktuell drei Schwierigkeitsstufen, ' +
+        'die allerdings noch abgepasst werden müssen.',
+      img: 'assets/memory.png',
+      url: 'https://mb89-memory.web.app/',
       github: 'https://github.com/Mandy-Blaschke/memory-game',
       tag: ['html', 'scss', 'javascript', 'typescript', 'angular']
     },
