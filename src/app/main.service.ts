@@ -139,6 +139,10 @@ export class MainService {
         'Vielleicht schaffe ich es auch noch, dass man gegen den Computer spielen kann.'
     },
     {
+      title: 'Mensch Ärgere Dich Nicht',
+      text: 'Das Würfel-Spiel was jeder kennt, möchte ich zu Übungszwecken bauen.'
+    },
+    {
       title: 'Schach',
       text: 'Wie bei dem geplanten Dame-Spiel soll man auch hier gegeneinander spielen können.'
     },
