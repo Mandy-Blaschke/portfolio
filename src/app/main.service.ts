@@ -140,7 +140,13 @@ export class MainService {
     },
     {
       title: 'Mensch Ärgere Dich Nicht',
-      text: 'Das Würfel-Spiel was jeder kennt, möchte ich zu Übungszwecken bauen.'
+      text: 'Das Würfel-Spiel was jeder kennt, möchte ich zu Übungszwecken bauen. Es soll vier Spieler maximal ' +
+        'geben und man soll gegen andere oder den Computer spielen können.'
+    },
+    {
+      title: 'Kartei-Karten',
+      text: 'Wie man sie oft in der Schule genutzt hat - oder auch nicht. Möchte ich eine App schreiben, die genutzt werden kann, ' +
+        'wie Kartei-Karten, um zum Beispiel Vokabeln für die Schule zu lernen.'
     },
     {
       title: 'Schach',
