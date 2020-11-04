@@ -145,7 +145,7 @@ export class MainService {
     },
     {
       title: 'Kartei-Karten',
-      text: 'Wie man sie oft in der Schule genutzt hat - oder auch nicht. Möchte ich eine App schreiben, die genutzt werden kann, ' +
+      text: 'Wie man sie oft in der Schule genutzt hat - oder auch nicht - möchte ich eine App schreiben, die genutzt werden kann, ' +
         'wie Kartei-Karten, um zum Beispiel Vokabeln für die Schule zu lernen.'
     },
     {
