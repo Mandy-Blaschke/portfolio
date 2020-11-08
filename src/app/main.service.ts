@@ -170,6 +170,13 @@ export class MainService {
         'schnell den Überblick verliere, wie lange ich am PC sitze und statt eine fertige zu nehmen, ist ' +
         'es sinnvoller, die Notwendigkeit mit dem Lernen zu verbinden.'
     },
+    {
+      title: 'Haushaltsplaner',
+      text: 'Die Idee ist eine Anwendung, bei der man sämtliche Haushaltsmitglieder und die anfallenden ' +
+        'Aufgaben eintragen kann. Jedes Mitglied soll Zugriff haben, aber nur die Eltern die Aufgaben eintragen ' +
+        'und bearbeiten können. Die Mitglieder sollen eintragen können, ob ihre Aufgaben erledigt sind, sodass alle ' +
+        'Einsicht haben, was noch zu erledigen ist.'
+    },
   ];
 
   randomStartValue = Math.round(Math.random() * 100);
