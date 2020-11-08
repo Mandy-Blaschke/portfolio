@@ -133,6 +133,13 @@ export class MainService {
 
   projectIdeas: ProjectIdeas[] = [
     {
+      title: 'Whack-a-Mole-Spiel',
+      text: 'Ein Spiel, bei dem um Schnelligkeit geht. Ziel ist es möglichst viele Punkte zu erzielen. ' +
+        'Diese bekommt man, indem man einem Maulwurf, der zufällig auf dem Spielfeld erscheint zurück in die ' +
+        'Höhle schlägt, bevor dieser wieder verschwindet. Anfangs erscheint nur einer, ' +
+        'im Verlauf des Spiels mehrere zugleich.'
+    },
+    {
       title: 'Dame',
       text: 'Das Brettspiel. Zuerst soll man gegen einen anderen Spieler spielen können. ' +
         'Später soll dies dann aber um die klassischen Regeln erweitert werden.' +
