@@ -181,6 +181,12 @@ export class MainService {
         'und bearbeiten können. Die Mitglieder sollen eintragen können, ob ihre Aufgaben erledigt sind, sodass alle ' +
         'Einsicht haben, was noch zu erledigen ist.'
     },
+    {
+      title: 'Tamagotchi',
+      text: 'Ein Tamagotchi ist ein virtuelles Haustier, um das man sich kümmern muss, ' +
+        'sobald es geschlüpft ist. Es möchte gefüttert werden, man muss mit ihm spielen und braucht Zuwendung. ' +
+        'Kümmert man sich zu lange nicht, so stirbt es.'
+    },
   ];
 
   randomStartValue = Math.round(Math.random() * 100);
