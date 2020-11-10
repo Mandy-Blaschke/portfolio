@@ -129,16 +129,20 @@ export class MainService {
       github: 'https://github.com/Mandy-Blaschke/portfolio',
       tag: ['html', 'scss', 'javascript', 'typescript', 'angular']
     },
-  ];
-
-  projectIdeas: ProjectIdeas[] = [
     {
       title: 'Whack-a-Mole-Spiel',
+      img: '',
+      url: '',
       text: 'Ein Spiel, bei dem um Schnelligkeit geht. Ziel ist es möglichst viele Punkte zu erzielen. ' +
         'Diese bekommt man, indem man einem Maulwurf, der zufällig auf dem Spielfeld erscheint zurück in die ' +
         'Höhle schlägt, bevor dieser wieder verschwindet. Anfangs erscheint nur einer, ' +
-        'im Verlauf des Spiels mehrere zugleich.'
-    },
+        'im Verlauf des Spiels mehrere zugleich.',
+      github: 'https://github.com/Mandy-Blaschke/whack-a-mole',
+      tag: ['html', 'scss', 'javascript', 'typescript', 'angular']
+    }
+  ];
+
+  projectIdeas: ProjectIdeas[] = [
     {
       title: 'Dame',
       text: 'Das Brettspiel. Zuerst soll man gegen einen anderen Spieler spielen können. ' +
