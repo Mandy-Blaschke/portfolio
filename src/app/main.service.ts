@@ -31,13 +31,24 @@ export class MainService {
       tag: ['html', 'scss', 'javascript', 'typescript', 'angular']
     },
     {
-      title: 'Hangman',
-      text: 'Das ein Spiel, bei dem ein Wort gesucht ist. Man rät Buchstaben, um das Wort zu finden, ' +
-        'möglichst bevor der "Hangman" fertig gezeichnet wurde.',
-      img: 'assets/hangman.png',
-      url: 'https://mb-hangman.web.app/',
-      github: 'https://github.com/Mandy-Blaschke/hangman-game',
-      tag: ['html', 'javascript', 'css']
+      title: 'Whack-a-Mole-Spiel',
+      img: 'assets/whack-a-mole.png',
+      url: 'https://mb89-whack-a-mole.web.app/',
+      text: 'Ein Spiel, bei dem um Schnelligkeit geht. Ziel ist es möglichst viele Punkte zu erzielen. ' +
+        'Diese bekommt man, indem man einem Maulwurf, der zufällig auf dem Spielfeld erscheint zurück in die ' +
+        'Höhle schlägt, bevor dieser wieder verschwindet. Anfangs erscheint nur einer, ' +
+        'im Verlauf des Spiels mehrere zugleich.',
+      github: 'https://github.com/Mandy-Blaschke/whack-a-mole',
+      tag: ['html', 'scss', 'javascript', 'typescript', 'angular']
+    },
+    {
+      title: 'Memory',
+      text: 'Das klassische Memory Spiel, bei dem das Ziel darin besteht, alle Kartenpaare zu finden.' +
+        ' Es ist alleine, zu zweit, sowie gegen den Computer spielbar. Der Computer hat aktuell drei Schwierigkeitsstufen.',
+      img: 'assets/memory.png',
+      url: 'https://mb89-memory.web.app/',
+      github: 'https://github.com/Mandy-Blaschke/memory-game',
+      tag: ['html', 'scss', 'javascript', 'typescript', 'angular']
     },
     {
       title: 'Rechne Mal!',
@@ -49,6 +60,15 @@ export class MainService {
       url: 'https://mb89-rechne-mal.web.app/',
       github: 'https://github.com/Mandy-Blaschke/malfolgen',
       tag: ['html', 'scss', 'javascript', 'typescript', 'angular']
+    },
+    {
+      title: 'Hangman',
+      text: 'Das ein Spiel, bei dem ein Wort gesucht ist. Man rät Buchstaben, um das Wort zu finden, ' +
+        'möglichst bevor der "Hangman" fertig gezeichnet wurde.',
+      img: 'assets/hangman.png',
+      url: 'https://mb-hangman.web.app/',
+      github: 'https://github.com/Mandy-Blaschke/hangman-game',
+      tag: ['html', 'javascript', 'css']
     },
     {
       title: 'Schere-Stein-Papier',
@@ -88,15 +108,6 @@ export class MainService {
       tag: ['html', 'css', 'javascript']
     },
     {
-      title: 'Memory',
-      text: 'Das klassische Memory Spiel, bei dem das Ziel darin besteht, alle Kartenpaare zu finden.' +
-        ' Es ist alleine, zu zweit, sowie gegen den Computer spielbar. Der Computer hat aktuell drei Schwierigkeitsstufen.',
-      img: 'assets/memory.png',
-      url: 'https://mb89-memory.web.app/',
-      github: 'https://github.com/Mandy-Blaschke/memory-game',
-      tag: ['html', 'scss', 'javascript', 'typescript', 'angular']
-    },
-    {
       title: 'Kundenverwaltung',
       text: 'Hier finden Sie eine einfache Kundenverwaltung. ' +
         'Diese wurde mir als Aufgabe gestellt und ich habe alle Anforderungen erfüllen können.' +
@@ -127,17 +138,6 @@ export class MainService {
       img: '',
       url: '',
       github: 'https://github.com/Mandy-Blaschke/portfolio',
-      tag: ['html', 'scss', 'javascript', 'typescript', 'angular']
-    },
-    {
-      title: 'Whack-a-Mole-Spiel',
-      img: '',
-      url: '',
-      text: 'Ein Spiel, bei dem um Schnelligkeit geht. Ziel ist es möglichst viele Punkte zu erzielen. ' +
-        'Diese bekommt man, indem man einem Maulwurf, der zufällig auf dem Spielfeld erscheint zurück in die ' +
-        'Höhle schlägt, bevor dieser wieder verschwindet. Anfangs erscheint nur einer, ' +
-        'im Verlauf des Spiels mehrere zugleich.',
-      github: 'https://github.com/Mandy-Blaschke/whack-a-mole',
       tag: ['html', 'scss', 'javascript', 'typescript', 'angular']
     }
   ];
