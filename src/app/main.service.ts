@@ -52,7 +52,7 @@ export class MainService {
     },
     {
       title: 'Senso (Simon Says)',
-      text: 'Senso kann alleine oder mit anderen zusammen gespielt werden. Das Spiel hat vier Felder mit unterschiedlichen ' +
+      text: 'Das Spiel hat vier Felder mit unterschiedlichen ' +
         'Farben, der jeweils ein Ton zugeordnet ist. Senso beginnt damit in der ersten Runde einen (in der zweiten zwei usw.) Ton ' +
         'vorzugeben, den der Spieler sich merken und nachspielen muss. Mit wachsender Anzahl werden die Vorgaben schneller.',
       img: 'assets/senso.png',
