@@ -51,6 +51,16 @@ export class MainService {
       tag: ['html', 'scss', 'javascript', 'typescript', 'angular']
     },
     {
+      title: 'Senso (Simon Says)',
+      text: 'Senso kann alleine oder mit anderen zusammen gespielt werden. Das Spiel hat vier Felder mit unterschiedlichen ' +
+        'Farben, der jeweils ein Ton zugeordnet ist. Senso beginnt damit in der ersten Runde einen (in der zweiten zwei usw.) Ton ' +
+        'vorzugeben, den der Spieler sich merken und nachspielen muss. Mit wachsender Anzahl werden die Vorgaben schneller.',
+      img: 'assets/senso.png',
+      url: 'https://mb89-senso-game.web.app/',
+      github: 'https://github.com/Mandy-Blaschke/senso-game',
+      tag: ['html', 'scss', 'javascript', 'typescript', 'angular']
+    },
+    {
       title: 'Rechne Mal!',
       text: 'Diese Anwendung habe ich an einem Wochenende für meine Nichte ' +
         'geschrieben, die in der Schule ' +
@@ -140,16 +150,6 @@ export class MainService {
       github: 'https://github.com/Mandy-Blaschke/portfolio',
       tag: ['html', 'scss', 'javascript', 'typescript', 'angular']
     },
-    {
-      title: 'Senso (Simon Says)',
-      text: 'Senso kann alleine oder mit anderen zusammen gespielt werden. Das Spiel hat vier Felder mit unterschiedlichen ' +
-        'Farben, der jeweils ein Ton zugeordnet ist. Senso beginnt damit in der ersten Runde einen (in der zweiten zwei usw.) Ton ' +
-        'vorzugeben, den der Spieler sich merken und nachspielen muss. Mit wachsender Anzahl werden die Vorgaben schneller.',
-      img: '',
-      url: '',
-      github: 'https://github.com/Mandy-Blaschke/senso-game',
-      tag: ['html', 'scss', 'javascript', 'typescript', 'angular']
-    }
   ];
 
   projectIdeas: ProjectIdeas[] = [
