@@ -142,12 +142,20 @@ export class MainService {
   wipProjects: Project[] = [
     {
       title: 'Portfolio',
-      text: 'Hier handel es sich um die Seite, die sie gerade sehen. Da ich ständig neue Projekte erstelle, ' +
+      text: 'Hier handelt es sich um die Seite, die sie gerade sehen. Da ich ständig neue Projekte erstelle, ' +
         'mit wechselnden Anforderungen und Anwendungsfällen, wird diese Seite den Status "fertig" ' +
         'wahrscheinlich nie erreichen.',
       img: '',
       url: '',
       github: 'https://github.com/Mandy-Blaschke/portfolio',
+      tag: ['html', 'scss', 'javascript', 'typescript', 'angular']
+    },
+    {
+      title: '17und4',
+      text: 'Siebzehnundvier ist ein Kartenspiel. Es funktioniert fast genauso wie das bekannte Casino-Spiel \'Black Jack\'.',
+      img: '',
+      url: '',
+      github: '',
       tag: ['html', 'scss', 'javascript', 'typescript', 'angular']
     },
   ];
