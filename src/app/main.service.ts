@@ -24,9 +24,9 @@ export class MainService {
     {
       title: '17und4',
       text: 'Siebzehn-und-vier ist ein Kartenspiel. Es funktioniert fast genauso wie das bekannte Casino-Spiel \'Black Jack\'.',
-      img: '',
+      img: 'assets/siebzehn-und-vier.png',
       url: 'https://mb-siebzehn-und-vier.web.app/',
-      github: '',
+      github: 'https://github.com/Mandy-Blaschke/siebzehn-und-vier',
       tag: ['html', 'scss', 'javascript', 'typescript', 'angular']
     },
     {
