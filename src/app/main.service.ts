@@ -22,6 +22,14 @@ export class MainService {
       tag: ['html', 'scss', 'javascript', 'typescript', 'angular']
     },
     {
+      title: '17und4',
+      text: 'Siebzehn-und-vier ist ein Kartenspiel. Es funktioniert fast genauso wie das bekannte Casino-Spiel \'Black Jack\'.',
+      img: '',
+      url: 'https://mb-siebzehn-und-vier.web.app/',
+      github: '',
+      tag: ['html', 'scss', 'javascript', 'typescript', 'angular']
+    },
+    {
       title: 'Vergieß Mein Nicht',
       text: 'Das eine App, die ich geschrieben habe, um den Überblick darüber behalten zu können, ' +
         'wann welche Pflanze gegossen werden muss.',
@@ -139,14 +147,6 @@ export class MainService {
       img: '',
       url: '',
       github: 'https://github.com/Mandy-Blaschke/portfolio',
-      tag: ['html', 'scss', 'javascript', 'typescript', 'angular']
-    },
-    {
-      title: '17und4',
-      text: 'Siebzehnundvier ist ein Kartenspiel. Es funktioniert fast genauso wie das bekannte Casino-Spiel \'Black Jack\'.',
-      img: '',
-      url: '',
-      github: '',
       tag: ['html', 'scss', 'javascript', 'typescript', 'angular']
     },
   ];
