@@ -128,15 +128,6 @@ export class MainService {
       github: 'https://github.com/Mandy-Blaschke/kundenverwaltung',
       tag: ['html', 'scss', 'javascript', 'typescript', 'angular']
     },
-    {
-      title: 'Adressbuch',
-      text: 'Diese App ist ähnlich aufgebaut wie die Kundenverwaltung und diente ' +
-        'ebenso der Übung von Vertiefung. Achtung: Dieses Projekt ist nicht responsive.',
-      img: '',
-      url: 'https://mb89-adressbuch.web.app/',
-      github: 'https://github.com/Mandy-Blaschke/adressbuch',
-      tag: ['html', 'scss', 'javascript', 'typescript', 'angular']
-    },
   ];
 
   wipProjects: Project[] = [
