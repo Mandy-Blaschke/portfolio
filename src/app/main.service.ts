@@ -69,6 +69,16 @@ export class MainService {
       tag: ['html', 'scss', 'javascript', 'typescript', 'angular']
     },
     {
+      title: 'Pomodoro-Clock',
+      text: 'Eine einfache Pomodoro- oder auch Tomato-Clock, bei der man das Intervall festlegen kann und ein Alarm ertönt, wenn ' +
+        'die Zeit abgelaufen ist. Bei diesem Projekt hatte ich Hilfe von meinem Mann, bei der Berechnung der Zeiten und deren Aktualisierung, ' +
+        'da dies mein erstes Projekt war, bei dem ich Zeitstempel genutzt habe.',
+      img: 'assets/pomodoro.png',
+      url: 'https://mb89-pomodoro-clock.web.app/',
+      github: 'https://github.com/Mandy-Blaschke/pomodoro-clock',
+      tag: ['html', 'scss', 'javascript', 'typescript', 'angular']
+    },
+    {
       title: 'Rechne Mal!',
       text: 'Diese Anwendung habe ich an einem Wochenende für meine Nichte ' +
         'geschrieben, die in der Schule ' +
@@ -176,12 +186,6 @@ export class MainService {
       title: 'Rezeptbuch',
       text: 'Dies soll ein Kochbuch werden, dass auf lange Sicht von mehreren Nutzern verwendet werden kann. ' +
         'Die Idee ist, dass man Rezepte mit anderen, z.B. Familienmitgliedern einfach teilen kann.'
-    },
-    {
-      title: 'Pomodoro-Clock',
-      text: 'Das soll eine Pomodoro- oder auch Tomato-Clock - werden. Die Idee entstand dadurch, dass ich selbst ' +
-        'schnell den Überblick verliere, wie lange ich am PC sitze und statt eine fertige zu nehmen, ist ' +
-        'es sinnvoller, die Notwendigkeit mit dem Lernen zu verbinden.'
     },
     {
       title: 'Haushaltsplaner',
