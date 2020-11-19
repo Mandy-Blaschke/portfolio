@@ -22,6 +22,24 @@ export class MainService {
       tag: ['html', 'scss', 'javascript', 'typescript', 'angular']
     },
     {
+      title: 'Hangman',
+      text: 'Das ein Spiel, bei dem ein Wort gesucht ist. Man rät Buchstaben, um das Wort zu finden, ' +
+        'möglichst bevor der "Hangman" fertig gezeichnet wurde.',
+      img: 'assets/hangman.png',
+      url: 'https://mb-hangman.web.app/',
+      github: 'https://github.com/Mandy-Blaschke/hangman-game',
+      tag: ['html', 'javascript', 'css']
+    },
+    {
+      title: 'TicTacToe',
+      text: 'Das ist ein Drei-Gewinnt-Spiel, bei dem zwei Leute gegeneinander antreten ' +
+        'können, wobei die Münze entscheidet, wer beginnt.',
+      img: 'assets/tictactoe.png',
+      url: 'https://mb-tictactoe.web.app/',
+      github: 'https://github.com/Mandy-Blaschke/tic-tac-toe-game',
+      tag: ['html', 'css', 'javascript']
+    },
+    {
       title: '17und4',
       text: 'Siebzehn-und-vier ist ein Kartenspiel. Es funktioniert fast genauso wie das bekannte Casino-Spiel \'Black Jack\'.',
       img: 'assets/siebzehn-und-vier.png',
@@ -30,12 +48,23 @@ export class MainService {
       tag: ['html', 'scss', 'javascript', 'typescript', 'angular']
     },
     {
-      title: 'Vergieß Mein Nicht',
-      text: 'Das eine App, die ich geschrieben habe, um den Überblick darüber behalten zu können, ' +
-        'wann welche Pflanze gegossen werden muss.',
-      img: 'assets/vergiess.png',
-      url: 'https://mb89-vergiess-mein-nicht.web.app/start',
-      github: 'https://github.com/Mandy-Blaschke/vergiess-mein-nicht',
+      title: 'Pomodoro-Clock',
+      text: 'Eine einfache Pomodoro- oder auch Tomato-Clock, bei der man das Intervall festlegen kann und ein Alarm ertönt, wenn ' +
+        'die Zeit abgelaufen ist. Bei diesem Projekt hatte ich Hilfe von meinem Mann, bei der Berechnung der Zeiten und deren Aktualisierung, ' +
+        'da dies mein erstes Projekt war, bei dem ich Zeitstempel genutzt habe.',
+      img: 'assets/pomodoro.png',
+      url: 'https://mb89-pomodoro-clock.web.app/',
+      github: 'https://github.com/Mandy-Blaschke/pomodoro-clock',
+      tag: ['html', 'scss', 'javascript', 'typescript', 'angular']
+    },
+    {
+      title: 'Senso (Simon Says)',
+      text: 'Das Spiel hat vier Felder mit unterschiedlichen ' +
+        'Farben, der jeweils ein Ton zugeordnet ist. Senso beginnt damit in der ersten Runde einen (in der zweiten zwei usw.) Ton ' +
+        'vorzugeben, den der Spieler sich merken und nachspielen muss. Mit wachsender Anzahl werden die Vorgaben schneller.',
+      img: 'assets/senso.png',
+      url: 'https://mb89-senso-game.web.app/',
+      github: 'https://github.com/Mandy-Blaschke/senso-game',
       tag: ['html', 'scss', 'javascript', 'typescript', 'angular']
     },
     {
@@ -59,91 +88,12 @@ export class MainService {
       tag: ['html', 'scss', 'javascript', 'typescript', 'angular']
     },
     {
-      title: 'Senso (Simon Says)',
-      text: 'Das Spiel hat vier Felder mit unterschiedlichen ' +
-        'Farben, der jeweils ein Ton zugeordnet ist. Senso beginnt damit in der ersten Runde einen (in der zweiten zwei usw.) Ton ' +
-        'vorzugeben, den der Spieler sich merken und nachspielen muss. Mit wachsender Anzahl werden die Vorgaben schneller.',
-      img: 'assets/senso.png',
-      url: 'https://mb89-senso-game.web.app/',
-      github: 'https://github.com/Mandy-Blaschke/senso-game',
-      tag: ['html', 'scss', 'javascript', 'typescript', 'angular']
-    },
-    {
-      title: 'Pomodoro-Clock',
-      text: 'Eine einfache Pomodoro- oder auch Tomato-Clock, bei der man das Intervall festlegen kann und ein Alarm ertönt, wenn ' +
-        'die Zeit abgelaufen ist. Bei diesem Projekt hatte ich Hilfe von meinem Mann, bei der Berechnung der Zeiten und deren Aktualisierung, ' +
-        'da dies mein erstes Projekt war, bei dem ich Zeitstempel genutzt habe.',
-      img: 'assets/pomodoro.png',
-      url: 'https://mb89-pomodoro-clock.web.app/',
-      github: 'https://github.com/Mandy-Blaschke/pomodoro-clock',
-      tag: ['html', 'scss', 'javascript', 'typescript', 'angular']
-    },
-    {
-      title: 'Rechne Mal!',
-      text: 'Diese Anwendung habe ich an einem Wochenende für meine Nichte ' +
-        'geschrieben, die in der Schule ' +
-        'die Malfolgen musste, aber lieber mit ihrem Handy gespielt hat. ' +
-        'Hiermit konnte sie beides kombinieren.',
-      img: 'assets/rechnemal.png',
-      url: 'https://mb89-rechne-mal.web.app/',
-      github: 'https://github.com/Mandy-Blaschke/malfolgen',
-      tag: ['html', 'scss', 'javascript', 'typescript', 'angular']
-    },
-    {
-      title: 'Hangman',
-      text: 'Das ein Spiel, bei dem ein Wort gesucht ist. Man rät Buchstaben, um das Wort zu finden, ' +
-        'möglichst bevor der "Hangman" fertig gezeichnet wurde.',
-      img: 'assets/hangman.png',
-      url: 'https://mb-hangman.web.app/',
-      github: 'https://github.com/Mandy-Blaschke/hangman-game',
-      tag: ['html', 'javascript', 'css']
-    },
-    {
-      title: 'Schere-Stein-Papier',
-      text: 'Das klassische Schere-Stein-Papier-Spiel, bei dem man gegen den Zufall antritt. ' +
-        'Das war eine der ersten Anwendungen mit JavaScript.',
-      img: 'assets/schere.png',
-      url: 'https://mb-schere-stein-papier.web.app/',
-      github: 'https://github.com/Mandy-Blaschke/scissors-stone-paper-game',
-      tag: ['html', 'javascript', 'css']
-    },
-    {
-      title: 'Kalorientracker',
-      text: 'Das ist eine Anwendung, die den Local Storage nutzt, um die ' +
-        'Kalorienaufnahme eines Tages zu tracken.',
-      img: 'assets/kalorientracker.png',
-      url: 'https://mb89-energiebedarf.web.app/',
-      github: 'https://github.com/Mandy-Blaschke/energiebedarf',
-      tag: ['html', 'scss', 'javascript', 'typescript', 'angular']
-    },
-    {
-      title: 'Zahlen Raten',
-      text: 'Das ist eine der ersten Anwendungen, die ich fertig gestellt habe. Als ich diese geschrieben habe, ' +
-        'habe ich gerade angefangen JavaScript zu lernen. ' +
-        'Ziel ist es eine Zufallszahl zu erraten.',
-      img: 'assets/zahlen.png',
-      url: 'https://mb-zahlen-raten.web.app/',
-      github: 'https://github.com/Mandy-Blaschke/zahlen-raten-spiel',
-      tag: ['html', 'css', 'javascript']
-    },
-    {
-      title: 'TicTacToe',
-      text: 'Das ist ein Drei-Gewinnt-Spiel, bei dem zwei Leute gegeneinander antreten ' +
-        'können, wobei die Münze entscheidet, wer beginnt.',
-      img: 'assets/tictactoe.png',
-      url: 'https://mb-tictactoe.web.app/',
-      github: 'https://github.com/Mandy-Blaschke/tic-tac-toe-game',
-      tag: ['html', 'css', 'javascript']
-    },
-    {
-      title: 'Kundenverwaltung',
-      text: 'Hier finden Sie eine einfache Kundenverwaltung. ' +
-        'Diese wurde mir als Aufgabe gestellt und ich habe alle Anforderungen erfüllen können.' +
-        'Sie diente, wie andere Projekte auch, der Übung von Vertiefung verschiedener Funktionen. ' +
-        'Achtung: Dieses Projekt ist nicht responsive.',
-      img: '',
-      url: 'https://mb89-kundenverwaltung.web.app/',
-      github: 'https://github.com/Mandy-Blaschke/kundenverwaltung',
+      title: 'Vergieß Mein Nicht',
+      text: 'Das eine App, die ich geschrieben habe, um den Überblick darüber behalten zu können, ' +
+        'wann welche Pflanze gegossen werden muss.',
+      img: 'assets/vergiess.png',
+      url: 'https://mb89-vergiess-mein-nicht.web.app/start',
+      github: 'https://github.com/Mandy-Blaschke/vergiess-mein-nicht',
       tag: ['html', 'scss', 'javascript', 'typescript', 'angular']
     },
   ];
@@ -159,6 +109,15 @@ export class MainService {
       github: 'https://github.com/Mandy-Blaschke/portfolio',
       tag: ['html', 'scss', 'javascript', 'typescript', 'angular']
     },
+    {
+      title: 'Archiv',
+      text: 'Aktuell arbeite ich an einem Archiv, in dem Sie alle Projekte finden werden, die ich fertig gestellt habe. ' +
+        'Dies ermöglicht Ihnen einen umfassenderen Eindruck meiner Entwicklung.',
+      img: '',
+      url: '',
+      github: '',
+      tag: ['html', 'scss', 'typescript', 'angular'],
+    }
   ];
 
   projectIdeas: ProjectIdeas[] = [
@@ -199,6 +158,25 @@ export class MainService {
       text: 'Ein Tamagotchi ist ein virtuelles Haustier, um das man sich kümmern muss, ' +
         'sobald es geschlüpft ist. Es möchte gefüttert werden, man muss mit ihm spielen und braucht Zuwendung. ' +
         'Kümmert man sich zu lange nicht, so stirbt es.'
+    },
+    {
+      title: 'Candy-Crush-Clon',
+      text: 'Ähnlich dem bekannten Spiel möchte ich ein Spiel erstellen, bei dem es für jede Reihe, die man aus drei oder ' +
+        'mehr gleichen Symbolen bildet, Punkte erhält.'
+    },
+    {
+      title: 'Wochenend-Planer',
+      text: 'Die Idee ist eine Anwendung, in die man Ideen für Tagesausflüge oder andere Tätigkeiten ' +
+        'eintragen kann. Zusätzlich werden diese mit entsprechenden Tags gekennzeichnet (z.B. "Gutes Wetter") und die ' +
+        'Anwendung schlägt dann aufgrund der Wettervorhersage vor, welche geplanten Unternehmungen sich anbieten.'
+    },
+    {
+      title: 'Buchfinder',
+      text: 'Bei dieser Anwendung soll es möglich sein, per Stichwort nach Büchern suchen zu können.'
+    },
+    {
+      title: 'Hütchen-Spiel',
+      text: 'Das Spiel bei dem es darum geht, einen Gegenstand gut im Auge zu behalten.'
     },
   ];
 
