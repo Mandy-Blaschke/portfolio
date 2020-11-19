@@ -96,6 +96,15 @@ export class MainService {
       github: 'https://github.com/Mandy-Blaschke/vergiess-mein-nicht',
       tag: ['html', 'scss', 'javascript', 'typescript', 'angular']
     },
+    {
+      title: 'Projekt Archiv',
+      text: 'Dies ist mein Projekt Archiv, in dem Sie alle Projekte finden werden, die ich fertig gestellt habe. ' +
+        'Dies ermöglicht Ihnen einen umfassenderen Eindruck meiner Entwicklung.',
+      img: 'assets/archiv.png',
+      url: 'https://mb89-projekt-archiv.web.app/home',
+      github: 'https://github.com/Mandy-Blaschke/archiv',
+      tag: ['html', 'scss', 'typescript', 'angular'],
+    }
   ];
 
   wipProjects: Project[] = [
@@ -109,15 +118,6 @@ export class MainService {
       github: 'https://github.com/Mandy-Blaschke/portfolio',
       tag: ['html', 'scss', 'javascript', 'typescript', 'angular']
     },
-    {
-      title: 'Archiv',
-      text: 'Aktuell arbeite ich an einem Archiv, in dem Sie alle Projekte finden werden, die ich fertig gestellt habe. ' +
-        'Dies ermöglicht Ihnen einen umfassenderen Eindruck meiner Entwicklung.',
-      img: '',
-      url: '',
-      github: '',
-      tag: ['html', 'scss', 'typescript', 'angular'],
-    }
   ];
 
   projectIdeas: ProjectIdeas[] = [
