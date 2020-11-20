@@ -88,6 +88,14 @@ export class MainService {
       tag: ['html', 'scss', 'javascript', 'typescript', 'angular']
     },
     {
+      title: 'Schach',
+      text: 'Wie bei dem geplanten Dame-Spiel soll man auch hier gegeneinander spielen können.',
+      img: 'assets/chess.png',
+      url: '',
+      github: 'https://github.com/Mandy-Blaschke/chess',
+      tag: ['html', 'scss', 'javascript', 'typescript', 'angular']
+    },
+    {
       title: 'Vergieß Mein Nicht',
       text: 'Das eine App, die ich geschrieben habe, um den Überblick darüber behalten zu können, ' +
         'wann welche Pflanze gegossen werden muss.',
@@ -136,10 +144,6 @@ export class MainService {
       title: 'Kartei-Karten',
       text: 'Wie man sie oft in der Schule genutzt hat - oder auch nicht - möchte ich eine App schreiben, die genutzt werden kann, ' +
         'wie Kartei-Karten, um zum Beispiel Vokabeln für die Schule zu lernen.'
-    },
-    {
-      title: 'Schach',
-      text: 'Wie bei dem geplanten Dame-Spiel soll man auch hier gegeneinander spielen können.'
     },
     {
       title: 'Rezeptbuch',
