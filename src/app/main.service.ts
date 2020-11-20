@@ -89,7 +89,7 @@ export class MainService {
     },
     {
       title: 'Schach',
-      text: 'Wie bei dem geplanten Dame-Spiel soll man auch hier gegeneinander spielen können.',
+      text: 'Schachbrett, sodass zwei Spieler gegeneinander spielen können.',
       img: 'assets/chess.png',
       url: '',
       github: 'https://github.com/Mandy-Blaschke/chess',
