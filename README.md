@@ -1,9 +1,8 @@
 # Portfolio
 
-- *WIP*
 - Erstellung im Rahmen des Selbststudiums
-- Übersicht meiner Projekte (Portfolio)
-- Ansicht: [Portfolio](https://mb89-portfolio.web.app/)
+- ehemalige Übersicht meiner Projekte (Portfolio) (*heute alles auf meiner Website*)
+- Ansicht: [Portfolio](https://mandy-blaschke.de/assets/projects/portfolio/#/)
 
 
 
